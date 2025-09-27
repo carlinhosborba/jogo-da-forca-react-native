@@ -1,50 +1,60 @@
-# Welcome to your Expo app 👋
+# 🎮 Jogo da Forca — React Native + Expo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo do **Jogo da Forca**, desenvolvido em **React Native** com **Expo** para fins acadêmicos.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Como rodar localmente
 
+1. Clonar o repositório:
+   ```bash
+   git clone https://github.com/carlosborba/jogo-da-forca-react-native.git
+   cd jogo-da-forca-react-native/jogo-da-forca
+   ```
+
+2. Instalar as dependências:
    ```bash
    npm install
    ```
 
-2. Start the app
+3. Instalar pacote para desenho em SVG:
+   ```bash
+   npx expo install react-native-svg
+   ```
 
+4. Rodar no Expo Go:
    ```bash
    npx expo start
    ```
+   - Escaneie o QR Code no celular com o app **Expo Go**
+   - ou abra no emulador Android/iOS.
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📱 Link do App no Expo
+🔗 [Abrir no Expo](https://expo.dev/@carlosborbab/jogo-da-forca)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 📂 Estrutura do Projeto
+- `app/index.tsx` → Tela principal do jogo  
+- `assets/` → ícones e imagens do app  
+- `package.json` → dependências  
+- `app.json` → configurações do Expo  
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## 🎯 Funcionalidades
+- Exibição da palavra com underlines  
+- Teclado virtual A–Z + input manual  
+- Controle de tentativas (6 erros)  
+- Lista de letras já usadas (corretas e erradas)  
+- Mensagem de vitória ou derrota  
+- Botão **Reiniciar** para começar uma nova partida  
+- Lista de **30+ palavras** aleatórias  
+- Desenho do boneco da forca em SVG  
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 👨‍💻 Autor
+- Carlos Borba
